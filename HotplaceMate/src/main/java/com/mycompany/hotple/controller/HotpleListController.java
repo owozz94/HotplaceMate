@@ -14,9 +14,9 @@ public class HotpleListController {
 	
 	@RequestMapping(value="/hotpleList",method = RequestMethod.GET)
 	public String HotpleList(HttpServletRequest request, HttpServletResponse response) throws IOException {
-//		request.setAttribute("center", "hotpleList.jsp");
+		request.setAttribute("center", "hotpleList.jsp");
 		System.out.println("Å¸³Ä");
-		return "hotpleList";
+		return "dashBoard";
 	}
 	
 }

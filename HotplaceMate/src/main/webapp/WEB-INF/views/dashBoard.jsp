@@ -9,7 +9,7 @@
 <title>MainPage</title>
 </head>
 <body>
-<%-- 	<jsp:include page="${center}" /> --%>
+	<jsp:include page="${center}" />
 
 	<jsp:include page="include/footer.jsp" />
 </body>
